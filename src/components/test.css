@@ -24,7 +24,7 @@
 .testQuestion {
     position: absolute;
     width: 100%;
-    top: 40vh; 
+    top: 48vh; 
     left: 50%;
     transform: translateX(-50%); 
     color: #000;
@@ -33,6 +33,13 @@
     font-size: 2vh;
     font-style: normal;
     line-height: 3vh;
+}
+
+.SelectImage{
+    position: absolute;
+    top:14vh;
+    width: 43vh;
+    height: 43vh;
 }
 
 .testSelectBox{
