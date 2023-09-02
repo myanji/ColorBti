@@ -44,8 +44,6 @@
 
 .resultContents{
     display: flex;
-    justify-content: center; /* 가로 축 가운데 정렬 */
-    align-items: center; /* 세로 축 가운데 정렬 */
     width: 38vh;
     margin-top:28vh;
     color: #000;
@@ -54,7 +52,6 @@
     font-style: normal;
     line-height: 3vh;
     margin-bottom: -25vh;
-
 }
 
 .Orange {
