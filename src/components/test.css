@@ -1,0 +1,62 @@
+.testDiv{
+    position: relative;
+    height: 100vh;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center; /* 가로 축 가운데 정렬 */
+    align-items: center; /* 세로 축 가운데 정렬 */
+}
+
+.textIdx{
+    position: absolute;
+    top: 2vh;
+    color: #624C4C;
+    text-align: center;
+    font-family: 'Jalnan OTF';
+    font-size: 2vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.testQuestion {
+    position: absolute;
+    width: 100%;
+    top: 40vh; 
+    left: 50%;
+    transform: translateX(-50%); 
+    color: #000;
+    text-align: center;
+    font-family: 'NanumSquareNeo';
+    font-size: 1.9vh;
+    font-style: normal;
+    line-height: 3vh;
+}
+
+.testSelectBox{
+    position: relative;
+    top: 27vh; 
+}
+
+.testSelect {
+    display: flex;
+    justify-content: center; /* 가로 축 가운데 정렬 */
+    align-items: center; /* 세로 축 가운데 정렬 */
+    margin-bottom: 2vh;
+    
+    left: 50%;
+    width: 42vh;
+    height: 9.5vh;
+    border-radius: 50px;
+    background: #624C4C;
+
+    color: #FFF;
+    text-align: center;
+    font-family: 'NanumSquareNeo';
+    font-size: 2vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 9.5vh;
+}
