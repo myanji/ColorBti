@@ -13,10 +13,10 @@
     top: 2vh;
     color: #624C4C;
     text-align: center;
-    font-family: 'Jalnan OTF';
-    font-size: 2vh;
+    font-family: 'JalnanOTF';
+    font-size: 3vh;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
 }
 
@@ -30,7 +30,7 @@
     color: #000;
     text-align: center;
     font-family: 'NanumSquareNeo';
-    font-size: 1.9vh;
+    font-size: 2vh;
     font-style: normal;
     line-height: 3vh;
 }
@@ -47,7 +47,7 @@
     margin-bottom: 2vh;
     
     left: 50%;
-    width: 42vh;
+    width: 43vh;
     height: 9.5vh;
     border-radius: 50px;
     background: #624C4C;
@@ -57,6 +57,6 @@
     font-family: 'NanumSquareNeo';
     font-size: 2vh;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 300;
     line-height: 9.5vh;
 }
