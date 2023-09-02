@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+import {
+  BrowserRouter as Router,
+  Routes, //
+  Route,  //path의 경로에 렌더링 해줌
+  Link //라우터에서 다른 라우터로 새로고침 필요 없이 갈 수 있게 해줌
+} from "react-router-dom";
+
 import './App.css';
+import Main from './components/main';
+import Test from './components/test';
+import Result from './components/result';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+    <Routes>
+      <Route path="/" element={<Main />} />
+      <Route path="/test" element={<Test />} />
+      <Route path="/result" element={<Result />} />
+    </Routes>
+    </Router>
   );
 }
 
