@@ -27,7 +27,7 @@
     left: 50%; /* 가로 가운데 정렬을 위해 추가 */
     transform: translateX(-50%); /* 가로 가운데 정렬을 위해 추가 */
     text-align: center;
-    font-family: "Jalnan OTF";
+    font-family: "JalnanOTF";
     font-size: 7vh;
     font-style: normal;
     font-weight: 700;

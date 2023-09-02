@@ -13,7 +13,7 @@
     top: 2vh;
     color: #624C4C;
     text-align: center;
-    font-family: 'Jalnan OTF';
+    font-family: 'JalnanOTF';
     font-size: 2vh;
     font-style: normal;
     font-weight: 700;
@@ -59,4 +59,94 @@
     font-style: normal;
     font-weight: 700;
     line-height: 9.5vh;
+}
+
+.resultDiv{
+    position: relative;
+    height: 100vh;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center; /* 가로 축 가운데 정렬 */
+    align-items: center; /* 세로 축 가운데 정렬 */
+}
+
+.resultmodifier{
+    position: absolute;
+    top:14vh;
+    left: 50%; /* 가로 가운데 정렬을 위해 추가 */
+    transform: translateX(-50%); /* 가로 가운데 정렬을 위해 추가 */
+    color: #333;
+    text-align: center;
+    font-family: "NanumSquareNeo";
+    font-size: 2.5vh;
+    font-style: normal;
+    line-height: normal;
+}
+
+.resultColor{
+    position: absolute;
+    top:19vh;
+    left: 50%; /* 가로 가운데 정렬을 위해 추가 */
+    transform: translateX(-50%); /* 가로 가운데 정렬을 위해 추가 */
+    text-align: center;
+    font-family: "Jalnan OTF";
+    font-size: 7vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.resultImage{
+    position: absolute;
+    top: 30vh;
+
+    width: 30vh;
+    height: 30vh;
+}
+
+.resultContents{
+    display: flex;
+    justify-content: center; /* 가로 축 가운데 정렬 */
+    align-items: center; /* 세로 축 가운데 정렬 */
+    width: 38vh;
+    margin-top:28vh;
+    color: #000;
+    font-family: "NanumSquareNeo";
+    font-size: 2.2vh;
+    font-style: normal;
+    line-height: 3vh;
+    margin-bottom: -25vh;
+}
+
+.Orange {
+    color: Orange; 
+}
+
+.Violet {
+    color: Violet;
+}
+
+.Peach {
+    color: pink; 
+}
+
+.Red {
+    color: Red;
+}
+
+.Silver {
+    color: Silver; 
+}
+
+.SkyBlue {
+    color: SkyBlue; 
+}
+
+.Yellow {
+    color: Yellow; 
+}
+
+.Lime {
+    color: Lime;
 }
