@@ -1,0 +1,76 @@
+.mainDiv{
+    position: relative;
+    height: 100vh;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center; /* 가로 축 가운데 정렬 */
+    align-items: center; /* 세로 축 가운데 정렬 */
+}
+.mainTitle{
+    position: absolute;
+    top: 11vh;
+    color: #503434;
+    text-align: center;
+    font-family: 'NanumSquareNeo';
+    font-size: 2.4vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.mainColor{
+    position: absolute;
+    top: 18vh;
+
+    color: #FBC7C7;
+    text-align: center;
+    font-family: 'Jalnan OTF';
+    font-size: 12vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.mainTest{
+    position: absolute;
+    top: 31vh;
+    margin-left: 18vh;
+
+    color: #3E3030;
+    text-align: center;
+    font-family: 'Jalnan OTF';
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.mainStart{
+    position: absolute;
+    top: 78vh;
+    width: 38vh;
+    height: 9vh;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #624C4C;
+
+    color: #FFF;
+    text-align: center;
+    font-family: 'NanumSquareNeo';
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 9vh;
+
+    
+    z-index: 1;
+}
+
+.mainImage{
+    position: absolute;
+    top: 36vh;
+    width: 46.2vh;
+    height: 64vh;
+    flex-shrink: 0;
+}
