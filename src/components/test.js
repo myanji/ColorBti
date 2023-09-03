@@ -10,6 +10,9 @@ import Select6 from './SelectImg/select6.png';
 import Select7 from './SelectImg/select7.png';
 import Select8 from './SelectImg/select8.png';
 import Select9 from './SelectImg/select9.png';
+import Select10 from './SelectImg/select10.png';
+import Select11 from './SelectImg/select11.png';
+import Select12 from './SelectImg/select12.png';
 import ResultImg from './SelectImg/result.png';
 
 function Test(){
@@ -26,7 +29,7 @@ function Test(){
         {q:['결국 오늘은 집에서 하루를 보내기로 한 당신'],
         a:[{type:'J', text:'한 5시까지 넷플릭스 보고 7시에 잠깐 외출할까'},
            {type:'P', text:'아 그냥 영화말고 게임이나 할까?'}],
-        img:Select1},
+        img:Select10},
 
         {q:['오랜만에 친구를 만난 당신!','친구가 어제 회사에서 화났던 일을 말해주는데..','들어보니 친구의 잘못인 것 같다.'],
         a:[{type:'F', text:'헉.. 그 팀장 말 너무 심하게 하는거 아니야??'},
@@ -46,7 +49,7 @@ function Test(){
         {q:['즐겁게 놀았더니 어느새 시험기간..!!','슬슬 공부를 시작해야 하는데..'],
         a:[{type:'J', text:'11시부터 12시까지 공부하고 1시까지..'},
             {type:'P', text:'오늘은 전공과목 두개쯤 해야겠다~'}],
-        img:Select4},
+        img:Select11},
         
         {q:['열심히 준비했던 전공과목 시험이','2시간 뒤에 시작하는 당신'],
         a:[{type:'F', text:'망하면 어떡하지… 나… 잘 할수 있겠지?……'},
@@ -66,7 +69,7 @@ function Test(){
         {q:['여행이 끝나고 집으로 돌아왔는데','지금 보니 집이 엉망이다.'],
         a:[{type:'J', text:'휴.. 빨리 치우고 씻고 좀 쉬어야겠다'},
             {type:'P', text:'몰라~ 일단 힘드니까 좀만 쉬었다 해야지~'}],
-        img:Select7},
+        img:Select12},
 
         {q:['팀원들과 역할을 분배하여 맡은 역할을 수행하는데,','자신과 같은 역할의 팀원이','비효율적으로 일을 처리하고 있다..'],
         a:[{type:'N', text:'( 열심히 하고 계시네 )'},
