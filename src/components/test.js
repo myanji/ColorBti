@@ -23,6 +23,11 @@ function Test(){
            {type:'E', text:'아쉽네… 다른 친구한테 연락이나 해볼까?'}],
         img:Select1},
 
+        {q:['결국 오늘은 집에서 하루를 보내기로 한 당신'],
+        a:[{type:'J', text:'한 5시까지 넷플릭스 보고 7시에 잠깐 외출할까'},
+           {type:'P', text:'그럼 전에 보고 싶었던 영화봐야지~~'}],
+        img:Select1},
+
         {q:['오랜만에 친구를 만난 당신!','친구가 어제 회사에서 화났던 일을 말해주는데..','들어보니 친구의 잘못인 것 같다.'],
         a:[{type:'F', text:'헉.. 그 팀장 말 너무 심하게 하는거 아니야??'},
             {type:'T', text:'팀장도 별로긴 한데 다음엔 다르게 해봐'}],
@@ -36,6 +41,11 @@ function Test(){
         {q:['친구가 즐거웠다며','다음주에 미술관에 같이 가자고 제안한다!'],
         a:[{type:'N', text:'좋아! 나 미술관 가는거 좋아해'},
             {type:'S', text:'미술관도 좋긴 한데.. 카페는 어때?'}],
+        img:Select4},
+
+        {q:['즐겁게 놀았더니 어느새 시험기간..!!','슬슬 공부를 시작해야 하는데..'],
+        a:[{type:'J', text:'11시부터 12시까지 공부하고 1시까지..'},
+            {type:'P', text:'오늘은 전공과목 두개쯤 해야겠다~'}],
         img:Select4},
         
         {q:['열심히 준비했던 전공과목 시험이','2시간 뒤에 시작하는 당신'],
@@ -53,9 +63,14 @@ function Test(){
             {type:'E', text:'헉 너무 좋아요! 앞으로 잘 부탁해요'}],
         img:Select7},
 
+        {q:['여행이 끝나고 집으로 돌아왔는데','지금 보니 집이 엉망이다.'],
+        a:[{type:'I', text:'휴.. 빨리 치우고 씻고 좀 쉬어야겠다'},
+            {type:'E', text:'몰라~ 일단 힘드니까 좀만 쉬었다 해야지~'}],
+        img:Select7},
+
         {q:['팀원들과 역할을 분배하여 맡은 역할을 수행하는데,','자신과 같은 역할의 팀원이','비효율적으로 일을 처리하고 있다..'],
         a:[{type:'N', text:'( 열심히 하고 계시네 )'},
-            {type:'S', text:'( 저 사람은 왜 일을 저렇게 하지.. 답답하다)'}],
+            {type:'S', text:'( 저 사람은 왜 일을 저렇게 하지.. 답답하다 )'}],
         img:Select8},
 
         {q:['팀플중에 점점 말이 격해지더니','결국 의견이 충돌한 두 팀원을 지켜보는 당신..!'],
@@ -69,8 +84,8 @@ function Test(){
     ]
 
     const [mbtiList, setMbtiList] = useState([
-        {name:'I', count:0},{name:'N', count:0},{name:'F', count:0},
-        {name:'E', count:0},{name:'S', count:0},{name:'T', count:0},
+        {name:'I', count:0},{name:'N', count:0},{name:'F', count:0},{name:'J', count:0},
+        {name:'E', count:0},{name:'S', count:0},{name:'T', count:0},{name:'P', count:0},
     ])
 
     const handleCkAnswer = (type, idx) => {
@@ -106,7 +121,11 @@ function Test(){
             mbtiList.find(function(data){return data.name === 'T'}).count >
             mbtiList.find(function(data){return data.name === 'F'}).count ?'T':'F'
 
-        setMbtiContents(IorE + NorS + TorF)
+        let JorP = 
+        mbtiList.find(function(data){return data.name === 'J'}).count >
+        mbtiList.find(function(data){return data.name === 'P'}).count ?'J':'P'
+
+        setMbtiContents(IorE + NorS + TorF + JorP)
     }
 
     return(

@@ -10,7 +10,7 @@
 
 .resultmodifier{
     position: absolute;
-    top:14vh;
+    top:11vh;
     left: 50%; /* 가로 가운데 정렬을 위해 추가 */
     transform: translateX(-50%); /* 가로 가운데 정렬을 위해 추가 */
     color: #333;
@@ -23,7 +23,7 @@
 
 .resultColor{
     position: absolute;
-    top:19vh;
+    top:15vh;
     left: 50%; /* 가로 가운데 정렬을 위해 추가 */
     transform: translateX(-50%); /* 가로 가운데 정렬을 위해 추가 */
     text-align: center;
@@ -36,7 +36,7 @@
 
 .resultImage{
     position: absolute;
-    top: 30vh;
+    top: 26vh;
 
     width: 30vh;
     height: 30vh;
@@ -50,28 +50,28 @@
     font-family: "NanumSquareNeo";
     font-size: 2.2vh;
     font-style: normal;
-    line-height: 3vh;
-    margin-bottom: -25vh;
+    line-height: 2.8vh;
+    margin-bottom: -26vh;
 }
 
 .Orange {
-    color: Orange; 
+    color: #FF772B; 
 }
 
 .Violet {
-    color: Violet;
+    color: #7E45AA;
 }
 
 .Peach {
-    color: pink; 
+    color: #FFB4A4; 
 }
 
 .Red {
-    color: Red;
+    color: #E20000;
 }
 
 .Silver {
-    color: Silver; 
+    color: #545454; 
 }
 
 .SkyBlue {
@@ -79,9 +79,41 @@
 }
 
 .Yellow {
-    color: Yellow; 
+    color: #FFE500; 
 }
 
 .Lime {
-    color: Lime;
+    color: #63F52F;
+}
+
+.Lilac {
+    color: #AD90FF;
+}
+
+.Vernilion {
+    color: #F33D04;
+}
+
+.BabyPink {
+    color: #FFD4D1;
+}
+
+.Coral {
+    color: #FF5252;
+}
+
+.Black {
+    color: 000000;
+}
+
+.Olive {
+    color: #88BA1D;
+}
+
+.Lemon {
+    color: #CDEC50;
+}
+
+.Cream {
+    color: #F4CC7C;
 }
