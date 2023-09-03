@@ -54,6 +54,40 @@
     margin-bottom: -26vh;
 }
 
+.TestBy{
+    position: absolute;
+    top: 98vh;
+    left: 50%; /* 가로 가운데 정렬을 위해 추가 */
+    transform: translateX(-50%); /* 가로 가운데 정렬을 위해 추가 */
+    width: 28vh;
+    color: #444444;
+    text-align: center;
+    font-family: "NanumSquareNeo";
+    font-size: 1.8vh;
+    font-style: normal;
+    line-height: normal;
+}
+
+.ByName{
+    position: absolute;
+    color: #7C7C7C;
+    top: 105vh;
+    left: 50%; /* 가로 가운데 정렬을 위해 추가 */
+    transform: translateX(-50%); /* 가로 가운데 정렬을 위해 추가 */
+    text-align: center;
+    font-family: "NanumSquareNeo";
+    font-size: 1.4vh;
+    font-style: normal;
+    line-height: normal;
+}
+
+.ByDiv{
+    position: absolute;
+    top: 98vh;
+    width: 20vh;
+    height: 20vh;
+}
+
 .Orange {
     color: #FF772B; 
 }

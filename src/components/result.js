@@ -171,6 +171,9 @@ function Result(){
                     </div>
                 )}
                 </div>
+                <div className="TestBy">울산대학교 IT융합학부 학술 동아리 가온누리에서 제작하였습니다.</div>
+                <div className="ByName">김현지, hyean03@naver.com</div>
+                <div className="ByDiv"></div>
             </div>
         </div>
     );
