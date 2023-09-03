@@ -4,6 +4,13 @@ import { useNavigate } from "react-router-dom";
 import Select1 from './SelectImg/select1.png';
 import Select2 from './SelectImg/select2.png';
 import Select3 from './SelectImg/select3.png';
+import Select4 from './SelectImg/select4.png';
+import Select5 from './SelectImg/select5.png';
+import Select6 from './SelectImg/select6.png';
+import Select7 from './SelectImg/select7.png';
+import Select8 from './SelectImg/select8.png';
+import Select9 from './SelectImg/select9.png';
+import ResultImg from './SelectImg/result.png';
 
 function Test(){
     const Navigate = useNavigate();
@@ -29,36 +36,36 @@ function Test(){
         {q:['친구가 즐거웠다며','다음주에 미술관에 같이 가자고 제안한다!'],
         a:[{type:'N', text:'좋아! 나 미술관 가는거 좋아해'},
             {type:'S', text:'미술관도 좋긴 한데.. 카페는 어때?'}],
-        img:Select1},
+        img:Select4},
         
         {q:['열심히 준비했던 전공과목 시험이','2시간 뒤에 시작하는 당신'],
         a:[{type:'F', text:'망하면 어떡하지… 나… 잘 할수 있겠지?……'},
             {type:'T', text:'흠… 열심히 준비했으니까 어떻게든 되겠지'}],
-        img:Select1},
+        img:Select5},
 
         {q:['시험이 끝나고 오늘은 드디어 기다리던 해외여행!!','신나는 발걸음으로 비행기에 탑승했다.'],
         a:[{type:'N', text:'난기류로 비행기가 추락하면 어떡하지… '},
             {type:'S', text:'5시간이나 걸리니까 잠이나 자둬야겠다.'}],
-        img:Select1},
+        img:Select6},
 
         {q:['패키지 여행을 신청한 당신에게','같은 패키지를 신청한 사람이 같이 다니자고','말을 건네는데..!'],
         a:[{type:'I', text:'앗.. 이번에 혼자 즐기고 싶어서.. 죄송해요'},
             {type:'E', text:'헉 너무 좋아요! 앞으로 잘 부탁해요'}],
-        img:Select1},
+        img:Select7},
 
         {q:['팀원들과 역할을 분배하여 맡은 역할을 수행하는데,','자신과 같은 역할의 팀원이','비효율적으로 일을 처리하고 있다..'],
         a:[{type:'N', text:'( 열심히 하고 계시네 )'},
             {type:'S', text:'( 저 사람은 왜 일을 저렇게 하지.. 답답하다)'}],
-        img:Select1},
+        img:Select8},
 
         {q:['팀플중에 점점 말이 격해지더니','결국 의견이 충돌한 두 팀원을 지켜보는 당신..!'],
         a:[{type:'F', text:'아… 왜 싸우는거야… 누가 좀 말렸으면 좋겠다.'},
             {type:'T', text:'A 말이 맞는데 B는 어떻게 반응하려나? (흥미)'}],
-        img:Select1},
+        img:Select9},
         
         {q:['당신의 색깔을 찾았습니다..!!'],
         a:[{type:'', text: '결과 보러 가기'}],
-        img:Select1},
+        img:ResultImg},
     ]
 
     const [mbtiList, setMbtiList] = useState([
